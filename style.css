@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 
 .header {
@@ -65,13 +65,13 @@ body {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
   outline: none;
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 .input-text {
@@ -80,10 +80,10 @@ body {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 
@@ -107,12 +107,12 @@ body {
 
 .delete-btn-img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
 .delete-btn-img:hover {
-  transform: rotateZ(0);
+  transform: rotatez(0);
 }
 
 .completed-task {
